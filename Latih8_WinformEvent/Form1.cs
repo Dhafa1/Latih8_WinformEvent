@@ -10,6 +10,9 @@ namespace Latih8_WinformEvent
         {
             InitializeComponent();
             GenerateData();
+
+            dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font(dataGridView1.Font, FontStyle.Bold);
+            dataGridView1.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
         }
 
         public void GenerateData()
